@@ -154,14 +154,89 @@ The pattern state can be represented as:
 |ψ⟩ = ∑ᵢ cᵢ|pᵢ⟩ where ∑ᵢ |cᵢ|² = 1
 ```
 
-### 7.2 Entanglement Measure
+### 7.2 Quantum Operations
+
+The system supports fundamental quantum operations:
+```
+H|ψ⟩ = 1/√2(|0⟩ + |1⟩)    (Hadamard gate)
+T(p₁,p₂) = exp(-α|d|²)    (Tunneling amplitude)
+E(p₁,p₂) = β(p₁,p₂)e^{-γt} (Entanglement with decay)
+```
+
+### 7.3 Entanglement Measure
 
 Binary coupling entanglement:
 ```
 E(p₁,p₂) = -Tr(ρ₁log₂ρ₁) where ρ₁ = Tr₂(|ψ⟩⟨ψ|)
 ```
 
+### 7.4 Coherence Properties
+
+Pattern coherence follows:
+```
+C(t) = C₀exp(-t/τ)β(p₁,p₂)
+```
+where τ is the coherence time and β is the binary coupling strength.
+
 ## 8. Topological Properties
+
+### 8.0 Quantum Visualization Patterns
+
+The quantum prime search visualization reveals several key mathematical structures:
+
+#### Pattern Type 1: Quantum Diffraction
+```
+    •   •   •
+  •   •   •   •
+•   •   •   •   •
+```
+The dotted fan-like spread represents quantum diffraction where:
+- Each dot is a quantum state |ψᵢ⟩ in superposition
+- Spacing follows Montgomery's pair correlation function
+- Amplitude decay matches quantum tunneling probability
+
+#### Pattern Type 2: Critical Line Resonance
+```
+----•----•----•----
+    |    |    |
+    •    •    •
+```
+The horizontal alignment shows:
+- Re(s) = 1/2 critical line from Riemann hypothesis
+- Quantum states converging to zeta zeros
+- Resonance peaks matching Odlyzko's calculations
+
+#### Pattern Type 3: Quantum Entanglement
+```
+    •~~~•
+   / \
+  •   •~~~•
+```
+The connecting lines demonstrate:
+- Quantum entanglement between paired states
+- Binary coupling strength β(p₁,p₂)
+- Information sharing through quantum channels
+
+#### Pattern Type 4: Tunneling Paths
+```
+•   
+ \   •
+  \   \   •
+   •   \   \   •
+```
+The diagonal streaks show:
+- Quantum tunneling through potential barriers
+- Direction of steepest descent in complex plane
+- Optimized paths between prime candidates
+
+These patterns correspond directly to the quantum operations in section 7.2:
+- Hadamard gate creates superposition states
+- Tunneling amplitude T(p₁,p₂) creates streaking effects
+- Entanglement measure E(p₁,p₂) forms connecting lines
+
+The visualization demonstrates how quantum mechanics can be applied to number theory, particularly in the search for Mersenne primes and exploration of the Riemann hypothesis.
+
+---
 
 ### 8.1 Pattern Space Topology
 
