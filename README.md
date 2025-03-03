@@ -127,6 +127,14 @@ R(p) = αS_p(p) + βS_h(p) + γS_φ(p) + δS_f(p) + εS_b(p)
 
 MIT License - See LICENSE file for details.
 
+## Contributing
+
+This research represents ongoing work in theoretical mathematics. While the core theoretical framework is established, there are many opportunities for extension and application. Researchers interested in contributing or building upon this work are welcome to do so under academic norms of citation and acknowledgment.
+
+## Support
+
+This research is conducted independently as part of ongoing mathematical investigation into fundamental patterns in nature. Those interested in supporting this research can find more information in the repository's GitHub Sponsors section.
+
 ## Acknowledgments
 
-Special thanks to the mathematics community for their ongoing work on the Riemann Hypothesis and prime number theory.
+Special thanks to the mathematics community for their ongoing work on the Riemann Hypothesis and prime number theory. Additional gratitude to researchers exploring orbital resonance patterns in natural systems, whose work helped inspire this new approach.
